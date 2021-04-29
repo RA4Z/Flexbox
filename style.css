@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+#app{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+
+.box {
+    width: 350px;
+    height: 60px;
+    margin: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.red{
+background: red;
+}
+.green{
+background: green;
+}
+.blue{
+background: blue;
+}
